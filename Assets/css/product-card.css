@@ -30,6 +30,16 @@
     margin-bottom: 10px;
 }
 
+.product-info h3 a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: text-decoration 0.2s ease;
+}
+
+.product-info h3 a:hover {
+    text-decoration: underline;
+}
+
 .product-info .description {
     font-size: 16px;
     color: #666;
