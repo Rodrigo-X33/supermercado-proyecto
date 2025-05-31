@@ -80,6 +80,113 @@ button:hover {
     background-color: #218838;
 }
 
+.carrito-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.carrito-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carrito-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.carrito-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.carrito-info {
+    flex-grow: 1;
+}
+
+.eliminar-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.eliminar-btn:hover {
+    background: #c82333;
+}
+
+.carrito-total {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.pagar-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.pagar-btn:hover {
+    background: #218838;
+}
+
+.perfil-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.perfil-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.perfil-item {
+    margin: 10px 0;
+}
+
+.perfil-item strong {
+    display: inline-block;
+    width: 120px;
+    color: #333;
+}
+
+.perfil-item span {
+    color: #555;
+}
+
+.editar-btn {
+    display: block;
+    margin: 20px auto;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.editar-btn:hover {
+    background: #0056b3;
+}
+
 footer {
     background-color: #333;
     color: white;
